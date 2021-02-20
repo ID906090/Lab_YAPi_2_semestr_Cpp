@@ -15,7 +15,7 @@ double height();
 
 int main()
 {
-    cout << "This program calculates the acceleration of gravity of a body relative to the earth's surface.";
+    cout << "|| This program calculates the acceleration of gravity of a body relative to the earth's surface. ||";
 
     //Объявляем значения - константы(Гравит. постоянная, Масса земли, радиус земли соответственно)
     const double G = (6.672 * pow(10, -11));
@@ -26,7 +26,7 @@ int main()
     
     double g = (G * ( M / (pow((R + H), 2))));
    
-    cout << "\nFree fall acceleration of a given body = " << g ;
+    cout << "\n|| Free fall acceleration of a given body = " << g ;
    
     return 0;
 }
@@ -35,7 +35,7 @@ double height()
 {
     while (true) //Цикл работает до тех пор, пока пользователь не введет корректное значение 
     {
-        cout << "\nEnter the distance from the ground (in meters): "; //Запрашиваем данные о высоте над поверхностью земли
+        cout << "\n|| Enter the distance from the ground (in meters): "; //Запрашиваем данные о высоте над поверхностью земли
         double H;
         cin >> H;
 
