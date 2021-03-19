@@ -81,11 +81,11 @@ int sizeArray()
         if (cin.fail() || SIZE <= 0 || SIZE > 30)
         {
             cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         }
         else
         {
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             return SIZE;
         }
     }
@@ -139,11 +139,11 @@ int orderOfTheMoment()
         if (cin.fail() || k < 0) 
         {
             cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         }
         else
         {
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             return k;
         }
     }
