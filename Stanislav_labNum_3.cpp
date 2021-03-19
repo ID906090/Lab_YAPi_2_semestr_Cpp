@@ -9,7 +9,6 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-#include <cstdlib>
 #include <ctime> 
 
 using namespace std;
