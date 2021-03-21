@@ -8,7 +8,6 @@
 
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 #include <cstdlib>
 #include <ctime> 
 
@@ -81,11 +80,11 @@ int sizeArray()
         if (cin.fail() || SIZE <= 0 || SIZE > 30)
         {
             cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cin.ignore(32000, '\n');
         }
         else
         {
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cin.ignore(32000, '\n');
             return SIZE;
         }
     }
@@ -139,11 +138,11 @@ int orderOfTheMoment()
         if (cin.fail() || k < 0) 
         {
             cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cin.ignore(32000, '\n');
         }
         else
         {
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cin.ignore(32000, '\n');
             return k;
         }
     }
