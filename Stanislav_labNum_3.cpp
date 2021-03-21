@@ -1,4 +1,4 @@
-﻿/*
+/*
     Author: Naumov Stanislav
 
     Group: SBS-001-O-01
@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 #include <cstdlib>
 #include <ctime> 
 
