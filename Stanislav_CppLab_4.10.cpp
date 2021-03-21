@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
+#include <limits>
 
 using namespace std;
 
@@ -32,11 +32,11 @@ int checkInputArray()
         if (cin.fail() || numArr == 0 )
         {
             cin.clear();
-            cin.ignore(32000, '\n');
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
         else
         {
-            cin.ignore(32000, '\n');
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             return numArr;
         }
     }
