@@ -1,6 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 #include <limits>
+#include <clocale>
 
 using namespace std;
 
