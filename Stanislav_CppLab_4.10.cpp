@@ -61,7 +61,8 @@ void calculatingThePhiAngle(int A[SIZE], int B[SIZE])
 
     for (int i = 0; i < SIZE; i++) numerator += A[i] * B[i];
 
-    for (int j = 0; j < SIZE; j++) denominator += (abs(A[j])) * (abs(B[j]));
+    //for (int j = 0; j < SIZE; j++) denominator += (abs(A[j])) * (abs(B[j])); - было
+    denominator = ((sqrt(pow(A[0], 2) + pow(A[1], 2) + pow(A[2], 2))) * (sqrt(pow(B[0], 2) + pow(B[1], 2) + pow(B[2], 2)))); //исправил по вашему же настовление - ответ тот же 
 
     phi = ((acos(numerator / denominator) * 180) / 3.14);
 
