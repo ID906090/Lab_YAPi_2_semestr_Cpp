@@ -101,7 +101,7 @@ int SizeList()
 		int SIZE;
 		cin >> SIZE;
 
-		if (cin.fail() || SIZE <= 0 || SIZE > 8)
+		if (cin.fail() || SIZE <= 0 || SIZE > 25)
 		{
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
