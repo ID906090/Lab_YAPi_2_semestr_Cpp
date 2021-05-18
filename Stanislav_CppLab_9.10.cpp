@@ -72,9 +72,9 @@ private:
 	NodeList<Right>* rTail;
 };
 
-int SizeList(); // Ввод и проверка на корректность количества элементов в списке
+int SizeList(); // Проверка ввода на корректность количества элементов в списке
 
-int InputLeft(); // Проверка на ввод левовых элементов списка
+int InputLeft(); // Проверка на ввод левых элементов списка
 
 string InputRight(); // Проверка на ввод правых элементов списка
 
@@ -101,7 +101,7 @@ int SizeList()
 		int SIZE;
 		cin >> SIZE;
 
-		if (cin.fail() || SIZE <= 0 || SIZE > 8)
+		if (cin.fail() || SIZE <= 0 || SIZE > 25)
 		{
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
