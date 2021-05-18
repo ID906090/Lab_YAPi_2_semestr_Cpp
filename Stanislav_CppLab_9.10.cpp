@@ -103,7 +103,7 @@ int SizeList()
 
 		if (cin.fail() || SIZE <= 0 || SIZE > 25)
 		{
-			cout << "|| Ошибка: введено недопустимое значение.\n || Повторите ввод: ";
+			cout << "|| Ошибка: введено недопустимое значение.\n|| Повторите ввод: ";
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		}
@@ -125,7 +125,7 @@ int InputLeft()
 
 		if (cin.fail())
 		{
-			cout << "|| Ошибка: введено недопустимое значение.\n || Повторите ввод: ";
+			cout << "|| Ошибка: введено недопустимое значение.\n|| Повторите ввод: ";
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		}
